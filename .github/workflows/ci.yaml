@@ -5,8 +5,7 @@ on:
     - develop
 
 jobs:
-  sonarcloud:
-    name: run-ci
+  run-ci:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
